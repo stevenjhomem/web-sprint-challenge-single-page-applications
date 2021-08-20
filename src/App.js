@@ -1,11 +1,13 @@
 import React from "react";
+import { Route } from "react-router-dom";
+import './App.css';
 
 const App = () => {
   return (
-    <>
-      <h1>Lambda Eats</h1>
-      <p>You can remove this code and create your own header</p>
-    </>
+        <div className = 'home'>
+              <h1>Your favorite food, delivered while coding</h1>
+              <button id = 'order-pizza' >Pizza?</button>
+        </div>
   );
 };
 export default App;
